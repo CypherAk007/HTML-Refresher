@@ -58,7 +58,7 @@ p{
 .box{
     width: 300px; 
     height: 300px;
-    position: relative;
+    /* position: relative; */
     background-color: yellow;
 }
 
@@ -66,6 +66,34 @@ p{
     width: 100px;
     height: 100px;
     left: 40%;
-    position: absolute;
+    /* position: absolute; */
     background-color: black;
+}
+
+.boxflx{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.box1{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+
+}
+
+.box3{
+    width: 250px;
+    height: 250px;
+    background-color: red;
 }
