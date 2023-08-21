@@ -16,3 +16,41 @@ p{
 #first{
     color: rgb(9, 9, 7);
 }
+
+.main{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: black;
+}
+
+.start{
+    width: 100%;
+    height: 100%;
+    background-image: url(wallpaper_goku.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.car1{
+    width: 100px;
+    height: 120px;
+    /* position: absolute; */
+    background-color: red;
+}
+
+.car2{
+    width: 110px;
+    height: 90px;
+    position: absolute;
+    /* move in absolute pos */
+    /* top: 100%; */
+    /* left: 40%; */
+    background-color: blue;
+}
+
+.car3{
+    width: 130px;
+    height: 110px;
+    background-color: green;
+}
